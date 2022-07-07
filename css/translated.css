@@ -408,7 +408,9 @@ div .asesoria {
     flex-direction: column;
     align-items: center; }
     .formulario form {
-      margin: 3rem 15%; } }
+      margin: 3rem; }
+      .formulario form .contact {
+        margin: auto -50%; } }
 
 #info {
   display: flex;
