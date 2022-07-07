@@ -401,6 +401,15 @@ div .asesoria {
         font-weight: 500;
         border: none; }
 
+/*quries*/
+@media (max-width: 760px) {
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .formulario form {
+      margin: 3rem 15%; } }
+
 #info {
   display: flex;
   flex-direction: row-reverse;
