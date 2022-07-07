@@ -1,0 +1,24 @@
+        /* Misc */
+
+@import "./misc/variables" ;
+@import "./misc/normalize" ;
+@import "./misc/mixins" ;
+@import "./misc/queries";
+@import "./misc/ciclos";
+        /* Partials */
+@import "./partials/header" ;
+@import "./partials/footer";
+@import "./partials/menu";
+
+        /* Views */
+
+@import "./views/asesoria" ;
+@import "./views/colorimetria" ;
+@import "./views/contacto" ;
+@import "./views/informacion" ;
+@import "./views/home"; 
+
+        /*Animations*/
+
+@import "./misc/animation" ;
+

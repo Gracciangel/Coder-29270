@@ -1,0 +1,96 @@
+/* Fonts */
+
+$font-principal: arial;
+$font-secundary: Verdana, Geneva, Tahoma, sans-serif ;
+$font-alternative: impact ;
+/* Colors */
+
+$primary: white ;
+$secundary: black ; 
+$alternative: yellow; 
+$back: rgba(128, 128, 128, 0.514) ;
+$primario: #FFCD00;
+/* Size */
+
+$title: 3.5rem; 
+$Subtitle: 2.5rem;
+$menu: 3rem ;
+$article:2rem; 
+$size-fot: 1.5rem; 
+
+/*mapas*/
+
+$colors:(
+    b: blue,
+    r: red,
+    w: white,
+    g: green 
+);
+
+@each $var, $val in $colors {
+    .#{$var}{
+        background-color: #{$val};
+    }
+    
+};
+
+$style:(
+    cur: italic,
+    sem: oblique,
+    norm: normal
+);
+@each $key, $val in $style {
+    .#{$key}{
+        font-style: #{$val}
+    }
+}
+
+
+
+$spacing:(
+    sm: 2rem,
+    lg: 3rem,
+    xl: 4rem,
+    xxl: 5rem
+);
+
+@each $key, $val in $spacing {
+    .#{$key}{
+        gap: #{$val}
+    }
+};
+
+
+$fondo:(
+    light: white,
+    dark: black,
+    live: red,
+    after: green
+);
+
+@each $key, $val in $fondo{
+    .#{$key}{
+        background-color: #{$val};
+    }
+}
+
+/*Extend´s*/
+
+.estilosh3{
+    font-family: $font-secundary;
+    text-decoration: overline 2px ;
+    color: $secundary;  
+}
+.textCenter{
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(120, 69, 168, 0.301);
+    padding: 2rem;
+}
+.button{
+    padding: 1rem;
+    text-align: center;
+    background-color: #FF7767;
+    color: whitesmoke;
+    border: none;
+}

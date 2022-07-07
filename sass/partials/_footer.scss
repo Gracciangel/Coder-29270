@@ -1,0 +1,42 @@
+#fot{
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: small;
+    color: yellow ;
+    display: flex;
+    flex-direction: row;
+    gap: $size-fot;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem; 
+    background-color: rgba(0, 0, 0, 0.5);
+ a {
+        text-decoration: none;
+        color:whitesmoke;
+        justify-items: center;
+        gap: 1rem;
+        &:hover{
+            color: yellow; 
+        }
+    }
+    .icon{
+        width: 26px;
+        height: 26px;
+        transition: .5s;
+        &:hover{
+            transform: scale(1.3);
+        }
+    }
+}
+
+/*queries*/
+
+@media (max-width: 760px){
+    #fot{
+     display: flex;
+     flex-direction: column;
+        
+    }
+   
+}
